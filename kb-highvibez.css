@@ -1,0 +1,325 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  flex: 1;
+  height: 90px;
+  width: 100%;
+  background-color: black;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  align-items: center;
+  z-index: 1;
+}
+
+.top-header-line,
+.bottom-header-line{
+  width: 500px;
+}
+
+.top-header-line{
+  margin-bottom: 0px;
+}
+
+.bottom-header-line{
+  margin-top: 0px;
+}
+
+
+.options-text-margin{
+  display: flex;
+  width: 500px;
+  flex-direction: row;
+  justify-content:space-around;
+
+}
+
+.options-text{
+  color: white;
+  font-family: arial;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.drop-down {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  min-width: 160px;
+  z-index: 1;
+}
+
+.links {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+}
+
+.links:hover {
+  background-color: #ddd;
+}
+
+.drop-down:hover .dropdown-content {
+  display: block;
+}
+
+.about-me-layout {
+  margin-left: 30px;
+}
+
+.about-me-pic {
+  width: 40px;
+}
+
+.chatbox-margin {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 1;
+}
+
+.contact-us-button{
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(180, 90, 212);
+  color: rgb(27, 27, 27);
+  border-radius: 30px;
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.chat-pic {
+  width: 20px;
+  margin-right: 10px; /* Adds some space between the image and the text */
+  background-color: transparent;
+}
+
+.closing-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: linear-gradient( rgba(149, 146, 146, 0.3), rgba(0, 0, 0, 1.0));
+  width: 100%; 
+  height: 400px;
+}
+
+
+.information-about{
+  flex: 1;
+}
+
+.closing-header {
+  font-size: 17px;
+  color: white;
+  font-family: 'jockey one',sans-serif;
+  letter-spacing: .2em;
+}
+
+.closing-info  {
+  font-size: 15px;
+  color: white;
+  font-family: 'enriqueta',serif;
+  letter-spacing: normal;
+  line-height: 1.3em;
+}
+
+.highvibes-page-layout {
+  display: block;
+  text-align: center;
+}
+
+.highvibe-intro-container {
+  margin-top: 130px;
+  margin-bottom: 60px;
+}
+
+.high-start {
+  font-size: 20px;
+  font-family: 'jockey one',sans-serif;
+  color: white;
+}
+
+.title {
+  letter-spacing: 0.4em;
+  color: #C726ED;
+  font-size: 90px;
+  font-weight: 800;
+  font-family: 'carme';
+
+}
+
+.high-para {
+  color: white;
+  font-size: 18px;
+  font-family: 'enriqueta', serif;
+}
+
+.people-vision-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  border-top: 1px white solid;
+  border-bottom: 1px white solid;
+}
+
+.highvibes-img-layout {
+  flex: 1;
+  border: 1px white solid;
+}
+
+.high-vibes-image {
+  height: 628px;
+  width: 620px;
+
+}
+
+.book-class-container {
+  flex: 1;
+}
+
+.vision {
+  color:#C726ED;
+  font-size: 37px;
+  font-family: 'enriqueta',serif;
+
+}
+
+.book-class-container {
+  color:white;
+  font-size: 16px;
+  font-family: 'enriqueta',serif;
+}
+
+.class-button {
+  color: black;
+  background-color: #C726ED;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 8px 13px;
+  border: none;
+  font-weight: bold;
+}
+
+
+.highvibes-signup-margin {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  margin-top: 40px;
+  height: 350px;
+
+}
+
+.signup-msg-layout {
+  flex: 1;
+}
+
+.canni-title {
+  font-family: 'georgia',serif;
+  color: #C726ED;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.canni-msg {
+  color: white;
+  font-family:'questrial',serif;
+  font-size: 24px;
+}
+
+.signup-input-layout {
+  flex: 1;
+  margin-left: -150px;
+}
+
+.canni-input-layout,
+.canni-input-layout1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.canni-input-layout1 {
+  margin-bottom: 50px;
+}
+
+.label1,
+.label3 {
+  position: absolute;
+  top: -40px;
+  left: 100px;
+  font-family: 'georgia',serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+.label2,
+.label4 {
+  position: absolute;
+  top: -40px;
+  left: 380px;
+  font-family: 'georgia',serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+
+}
+
+.canni-input {
+  width: 220px;
+  padding: 10px 1px 10px 20px;
+  color: black;
+  font-size: 15px;
+  font-family: 'enriqueta',serif;
+}
+
+.input-two{
+  margin-left: -140px;
+}
+
+::placeholder{
+  color: black;
+}
+
+.canni-sign-up{
+  background-color: #C726ED;
+  color: black;
+  padding: 8px 20px;
+  border: none;
+  font-size: 14px;
+  font-family:'Heebo',sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+
+

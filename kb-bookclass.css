@@ -1,0 +1,28 @@
+.bookclass-page-layout{
+  margin-top: 130px;
+}
+
+.classes-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.booking-image-layout {
+  flex: 1;
+  text-align:end;
+  border: 2px red solid;
+
+}
+
+.booking-image {
+  width: 464px;
+
+}
+
+.schedule-booking-layout {
+  display: block;
+  flex: 1;
+  text-align: center;
+  border: 2px blue solid;
+}
