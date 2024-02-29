@@ -668,3 +668,45 @@ body {
   from {opacity: .4}
   to {opacity: 1}
 }
+/* For Shp[ Page */
+.product {
+  position: relative;
+  width: calc(100% / 4 - 20px); /* Display 4 products per row */
+  margin: 30px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 800px) {
+  .product {
+    width: calc(100% / 3 - 30px); /* Display 3 products per row when the viewport width is 800px or less */
+  }
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.quick-view {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.product:hover .quick-view {
+  opacity: 1;
+}
+.shop-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
