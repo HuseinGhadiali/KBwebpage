@@ -6,3 +6,5 @@
 # Book Class
 ![Alt text](BookClass.png)
 
+# High Vibez
+![Alt text](HighVibez.png)
